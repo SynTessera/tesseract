@@ -15,7 +15,8 @@
       "@/*": ["./lib/*"]
     }
   },
-  "include": ["./lib/tesseract.d.ts"],
+  "files": ["./lib/svg.d.ts"],
+  "include": ["./lib/svg.d.ts", "./lib/**/*.*"],
   "tsc-alias": {
     "verbose": false,
     "resolveFullPaths": true
