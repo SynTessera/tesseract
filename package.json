@@ -1,15 +1,8 @@
 {
-  "name": "tesseract",
+  "name": "@syntessera/tesseract",
   "private": true,
   "version": "0.0.1",
-  "main": "./dist/tesseract.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/tesseract.es.js",
-      "require": "./dist/tesseract.umd.js",
-      "types": "./lib/tesseract.d.ts"
-    }
-  },
+  "main": "./dist/index.js",
   "type": "module",
   "scripts": {
     "build": "tsc -b",
